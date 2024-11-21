@@ -1,0 +1,682 @@
+[96m[CASE]19:43:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:43:5-logs.py:63 >> Method Name: testCase01_major, Class Name: NoteContentCreateMajor
+[96m[CASE]19:43:5-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：上传普通便签内容
+[INFO]19:43:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]19:43:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:43:5-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731843834087', 'bodyType': 0}
+[INFO]19:43:5-BusinessRe.py:22 >> response code: 200
+[INFO]19:43:5-BusinessRe.py:23 >> response body: {"responseTime":28,"contentVersion":1,"contentUpdateTime":1731843838180}
+[INFO]19:43:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]19:43:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:43:5-BusinessRe.py:16 >> request body: {'noteIds': ['1731843834087']}
+[INFO]19:43:5-BusinessRe.py:22 >> response code: 200
+[INFO]19:43:5-BusinessRe.py:23 >> response body: {"responseTime":27,"noteBodies":[{"summary":"test","noteId":"1731843834087","infoNoteId":"1731843834087","bodyType":0,"body":"test","contentVersion":1,"contentUpdateTime":1731843838180,"title":"test","valid":1}]}
+[96m[CASE]19:43:5-logs.py:68 >> Case run time: 0.51s
+[96m[CASE]19:43:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:43:5-logs.py:63 >> Method Name: testCase02_major, Class Name: NoteContentCreateMajor
+[96m[CASE]19:43:5-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：上传日历便签内容
+[INFO]19:43:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]19:43:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:43:5-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731843836831', 'bodyType': 0}
+[INFO]19:43:5-BusinessRe.py:22 >> response code: 200
+[INFO]19:43:5-BusinessRe.py:23 >> response body: {"responseTime":26,"contentVersion":1,"contentUpdateTime":1731843840869}
+[INFO]19:43:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]19:43:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:43:5-BusinessRe.py:16 >> request body: {'noteIds': ['1731843836831']}
+[INFO]19:43:5-BusinessRe.py:22 >> response code: 200
+[INFO]19:43:5-BusinessRe.py:23 >> response body: {"responseTime":27,"noteBodies":[{"summary":"test","noteId":"1731843836831","infoNoteId":"1731843836831","bodyType":0,"body":"test","contentVersion":1,"contentUpdateTime":1731843840869,"title":"test","valid":1}]}
+[96m[CASE]19:43:5-logs.py:68 >> Case run time: 0.42s
+[96m[CASE]19:43:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:43:5-logs.py:63 >> Method Name: testCase03_major, Class Name: NoteContentCreateMajor
+[96m[CASE]19:43:5-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：上传分组便签内容
+[INFO]19:43:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]19:43:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:43:5-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731843839632', 'bodyType': 0}
+[INFO]19:43:5-BusinessRe.py:22 >> response code: 200
+[INFO]19:43:5-BusinessRe.py:23 >> response body: {"responseTime":28,"contentVersion":1,"contentUpdateTime":1731843843677}
+[INFO]19:43:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]19:43:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:43:5-BusinessRe.py:16 >> request body: {'noteIds': ['1731843839632']}
+[INFO]19:44:0-BusinessRe.py:22 >> response code: 200
+[INFO]19:44:0-BusinessRe.py:23 >> response body: {"responseTime":24,"noteBodies":[{"summary":"test","noteId":"1731843839632","infoNoteId":"1731843839632","bodyType":0,"body":"test","contentVersion":1,"contentUpdateTime":1731843843677,"title":"test","valid":1}]}
+[96m[CASE]19:44:0-logs.py:68 >> Case run time: 0.41s
+[96m[CASE]19:44:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:0-logs.py:63 >> Method Name: testCase04_major, Class Name: NoteContentCreateMajor
+[96m[CASE]19:44:0-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：更新普通便签内容
+[INFO]19:44:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]19:44:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:44:0-BusinessRe.py:16 >> request body: {'title': 'test1', 'summary': 'test1', 'body': 'test1', 'localContentVersion': 1, 'noteId': '1731843842237', 'bodyType': 0}
+[INFO]19:44:0-BusinessRe.py:22 >> response code: 200
+[INFO]19:44:0-BusinessRe.py:23 >> response body: {"responseTime":30,"contentVersion":2,"contentUpdateTime":1731843846473}
+[INFO]19:44:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]19:44:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:44:0-BusinessRe.py:16 >> request body: {'noteIds': ['1731843842237']}
+[INFO]19:44:0-BusinessRe.py:22 >> response code: 200
+[INFO]19:44:0-BusinessRe.py:23 >> response body: {"responseTime":23,"noteBodies":[{"summary":"test1","noteId":"1731843842237","infoNoteId":"1731843842237","bodyType":0,"body":"test1","contentVersion":2,"contentUpdateTime":1731843846473,"title":"test1","valid":1}]}
+[96m[CASE]19:44:0-logs.py:68 >> Case run time: 0.57s
+[96m[CASE]19:44:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:0-logs.py:63 >> Method Name: testCase05_major, Class Name: NoteContentCreateMajor
+[96m[CASE]19:44:0-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：更新日历便签内容
+[INFO]19:44:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]19:44:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:44:0-BusinessRe.py:16 >> request body: {'title': 'test1', 'summary': 'test1', 'body': 'test1', 'localContentVersion': 1, 'noteId': '1731843845323', 'bodyType': 0}
+[INFO]19:44:0-BusinessRe.py:22 >> response code: 200
+[INFO]19:44:0-BusinessRe.py:23 >> response body: {"responseTime":29,"contentVersion":2,"contentUpdateTime":1731843849596}
+[INFO]19:44:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]19:44:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:44:0-BusinessRe.py:16 >> request body: {'noteIds': ['1731843845323']}
+[INFO]19:44:0-BusinessRe.py:22 >> response code: 200
+[INFO]19:44:0-BusinessRe.py:23 >> response body: {"responseTime":25,"noteBodies":[{"summary":"test1","noteId":"1731843845323","infoNoteId":"1731843845323","bodyType":0,"body":"test1","contentVersion":2,"contentUpdateTime":1731843849596,"title":"test1","valid":1}]}
+[96m[CASE]19:44:0-logs.py:68 >> Case run time: 0.60s
+[96m[CASE]19:44:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:0-logs.py:63 >> Method Name: testCase06_major, Class Name: NoteContentCreateMajor
+[96m[CASE]19:44:0-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：更新分组便签内容
+[INFO]19:44:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]19:44:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:44:0-BusinessRe.py:16 >> request body: {'title': 'test1', 'summary': 'test1', 'body': 'test1', 'localContentVersion': 1, 'noteId': '1731843848274', 'bodyType': 0}
+[INFO]19:44:0-BusinessRe.py:22 >> response code: 200
+[INFO]19:44:0-BusinessRe.py:23 >> response body: {"responseTime":29,"contentVersion":2,"contentUpdateTime":1731843852581}
+[INFO]19:44:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]19:44:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]19:44:0-BusinessRe.py:16 >> request body: {'noteIds': ['1731843848274']}
+[INFO]19:44:0-BusinessRe.py:22 >> response code: 200
+[INFO]19:44:0-BusinessRe.py:23 >> response body: {"responseTime":25,"noteBodies":[{"summary":"test1","noteId":"1731843848274","infoNoteId":"1731843848274","bodyType":0,"body":"test1","contentVersion":2,"contentUpdateTime":1731843852581,"title":"test1","valid":1}]}
+[96m[CASE]19:44:0-logs.py:68 >> Case run time: 0.70s
+[96m[CASE]19:44:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:1-logs.py:63 >> Method Name: testCase010_handle_over_permission, Class Name: RequestNotes
+[96m[CASE]19:44:1-logs.py:64 >> Test Description:查询便签接口，handle层越权：用户A新建1条便签A，用户B查询
+[96m[CASE]19:44:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:1-logs.py:63 >> Method Name: testCase01_major, Class Name: RequestNotes
+[96m[CASE]19:44:1-logs.py:64 >> Test Description:查询首页便签接口，主流程：新建一条便签A然后查询
+[96m[CASE]19:44:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:1-logs.py:63 >> Method Name: testCase02_major, Class Name: RequestNotes
+[96m[CASE]19:44:1-logs.py:64 >> Test Description:查询首页便签接口，主流程：无数据时查询，期望返回0条数据
+[96m[CASE]19:44:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:1-logs.py:63 >> Method Name: testCase03_handle_startindex, Class Name: RequestNotes
+[96m[CASE]19:44:1-logs.py:64 >> Test Description:查询首页便签接口，Handle层startindex数值限制：新建两条便签A、B，查询时传入startindex为1,期望返回便签A的数据
+[96m[CASE]19:44:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:2-logs.py:63 >> Method Name: testCase04_handle_startindex, Class Name: RequestNotes
+[96m[CASE]19:44:2-logs.py:64 >> Test Description:查询首页便签接口，Handle层startindex数值限制：新建两条便签A、B，查询时传入startindex为5,期望返回0条便签数据
+[96m[CASE]19:44:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:2-logs.py:63 >> Method Name: testCase05_handle_rows, Class Name: RequestNotes
+[96m[CASE]19:44:2-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为0,期望返回0条便签数据
+[96m[CASE]19:44:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:2-logs.py:63 >> Method Name: testCase06_handle_rows, Class Name: RequestNotes
+[96m[CASE]19:44:2-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为0,期望返回0条便签数据
+[96m[CASE]19:44:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:3-logs.py:63 >> Method Name: testCase07_handle_rows, Class Name: RequestNotes
+[96m[CASE]19:44:3-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为1,期望返回便签B数据
+[96m[CASE]19:44:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:3-logs.py:63 >> Method Name: testCase08_handle_rows, Class Name: RequestNotes
+[96m[CASE]19:44:3-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为2,期望返回便签A、B数据
+[96m[CASE]19:44:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:3-logs.py:63 >> Method Name: testCase09_handle_rows, Class Name: RequestNotes
+[96m[CASE]19:44:3-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为1000,期望返回便签A、B数据
+[96m[CASE]19:44:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:4-logs.py:63 >> Method Name: testCase11_handle_status, Class Name: RequestNotes
+[96m[CASE]19:44:4-logs.py:64 >> Test Description:查询便签接口，handle层状态转变：新建一条便签A然后删除，期望：查询时返回0条数据
+[96m[CASE]19:44:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:4-logs.py:63 >> Method Name: testCase12_handle_status, Class Name: RequestNotes
+[96m[CASE]19:44:4-logs.py:64 >> Test Description:查询便签接口，handle层状态转变：新建一条便签A并移动到分组中，期望：查询时返回0条数据
+[96m[CASE]19:44:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:4-logs.py:63 >> Method Name: testCase13_input_must_key, Class Name: RequestNotes
+[96m[CASE]19:44:4-logs.py:64 >> Test Description:查询便签接口，input必填项：userid传入None
+[96m[CASE]19:44:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:5-logs.py:63 >> Method Name: testCase14_input_must_key, Class Name: RequestNotes
+[96m[CASE]19:44:5-logs.py:64 >> Test Description:查询便签接口，input必填项：userid传入空字符串
+[96m[CASE]19:44:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:5-logs.py:63 >> Method Name: testCase15_input_must_key, Class Name: RequestNotes
+[96m[CASE]19:44:5-logs.py:64 >> Test Description:查询便签接口，input必填项：userid缺失
+[96m[CASE]19:44:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:5-logs.py:63 >> Method Name: testCase16_input_type, Class Name: RequestNotes
+[96m[CASE]19:44:5-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid长度超出
+[96m[CASE]19:44:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:44:5-logs.py:63 >> Method Name: testCase17_input_type, Class Name: RequestNotes
+[96m[CASE]19:44:5-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid长度不足
+[96m[CASE]19:45:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:45:0-logs.py:63 >> Method Name: testCase18_input_type, Class Name: RequestNotes
+[96m[CASE]19:45:0-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid为0
+[96m[CASE]19:45:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:45:0-logs.py:63 >> Method Name: testCase19_input_type, Class Name: RequestNotes
+[96m[CASE]19:45:0-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid为-1
+[96m[CASE]19:45:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]19:45:0-logs.py:63 >> Method Name: testCase20_input_type, Class Name: RequestNotes
+[96m[CASE]19:45:0-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid为小数2.5
+[96m[CASE]20:00:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:00:5-logs.py:63 >> Method Name: testCase01_major, Class Name: NoteContentCreateMajor
+[96m[CASE]20:00:5-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：上传普通便签内容
+[INFO]20:00:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:00:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:00:5-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731844855517', 'bodyType': 0}
+[INFO]20:00:5-BusinessRe.py:22 >> response code: 200
+[INFO]20:00:5-BusinessRe.py:23 >> response body: {"responseTime":34,"contentVersion":1,"contentUpdateTime":1731844859603}
+[INFO]20:00:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]20:00:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:00:5-BusinessRe.py:16 >> request body: {'noteIds': ['1731844855517']}
+[INFO]20:00:5-BusinessRe.py:22 >> response code: 200
+[INFO]20:00:5-BusinessRe.py:23 >> response body: {"responseTime":27,"noteBodies":[{"summary":"test","noteId":"1731844855517","infoNoteId":"1731844855517","bodyType":0,"body":"test","contentVersion":1,"contentUpdateTime":1731844859603,"title":"test","valid":1}]}
+[96m[CASE]20:00:5-logs.py:68 >> Case run time: 0.51s
+[96m[CASE]20:00:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:00:5-logs.py:63 >> Method Name: testCase02_major, Class Name: NoteContentCreateMajor
+[96m[CASE]20:00:5-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：上传日历便签内容
+[INFO]20:00:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:00:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:00:5-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731844858512', 'bodyType': 0}
+[INFO]20:00:5-BusinessRe.py:22 >> response code: 200
+[INFO]20:00:5-BusinessRe.py:23 >> response body: {"responseTime":32,"contentVersion":1,"contentUpdateTime":1731844862572}
+[INFO]20:00:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]20:00:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:00:5-BusinessRe.py:16 >> request body: {'noteIds': ['1731844858512']}
+[INFO]20:00:5-BusinessRe.py:22 >> response code: 200
+[INFO]20:00:5-BusinessRe.py:23 >> response body: {"responseTime":24,"noteBodies":[{"summary":"test","noteId":"1731844858512","infoNoteId":"1731844858512","bodyType":0,"body":"test","contentVersion":1,"contentUpdateTime":1731844862572,"title":"test","valid":1}]}
+[96m[CASE]20:00:5-logs.py:68 >> Case run time: 0.47s
+[96m[CASE]20:01:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:0-logs.py:63 >> Method Name: testCase03_major, Class Name: NoteContentCreateMajor
+[96m[CASE]20:01:0-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：上传分组便签内容
+[INFO]20:01:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:01:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:0-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731844861565', 'bodyType': 0}
+[INFO]20:01:0-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:0-BusinessRe.py:23 >> response body: {"responseTime":37,"contentVersion":1,"contentUpdateTime":1731844865665}
+[INFO]20:01:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]20:01:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:0-BusinessRe.py:16 >> request body: {'noteIds': ['1731844861565']}
+[INFO]20:01:0-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:0-BusinessRe.py:23 >> response body: {"responseTime":23,"noteBodies":[{"summary":"test","noteId":"1731844861565","infoNoteId":"1731844861565","bodyType":0,"body":"test","contentVersion":1,"contentUpdateTime":1731844865665,"title":"test","valid":1}]}
+[96m[CASE]20:01:0-logs.py:68 >> Case run time: 0.45s
+[96m[CASE]20:01:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:0-logs.py:63 >> Method Name: testCase04_major, Class Name: NoteContentCreateMajor
+[96m[CASE]20:01:0-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：更新普通便签内容
+[INFO]20:01:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:01:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:0-BusinessRe.py:16 >> request body: {'title': 'test1', 'summary': 'test1', 'body': 'test1', 'localContentVersion': 1, 'noteId': '1731844864406', 'bodyType': 0}
+[INFO]20:01:0-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:0-BusinessRe.py:23 >> response body: {"responseTime":30,"contentVersion":2,"contentUpdateTime":1731844868575}
+[INFO]20:01:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]20:01:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:0-BusinessRe.py:16 >> request body: {'noteIds': ['1731844864406']}
+[INFO]20:01:0-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:0-BusinessRe.py:23 >> response body: {"responseTime":28,"noteBodies":[{"summary":"test1","noteId":"1731844864406","infoNoteId":"1731844864406","bodyType":0,"body":"test1","contentVersion":2,"contentUpdateTime":1731844868575,"title":"test1","valid":1}]}
+[96m[CASE]20:01:0-logs.py:68 >> Case run time: 0.58s
+[96m[CASE]20:01:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:0-logs.py:63 >> Method Name: testCase05_major, Class Name: NoteContentCreateMajor
+[96m[CASE]20:01:0-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：更新日历便签内容
+[INFO]20:01:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:01:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:0-BusinessRe.py:16 >> request body: {'title': 'test1', 'summary': 'test1', 'body': 'test1', 'localContentVersion': 1, 'noteId': '1731844867468', 'bodyType': 0}
+[INFO]20:01:0-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:0-BusinessRe.py:23 >> response body: {"responseTime":29,"contentVersion":2,"contentUpdateTime":1731844871621}
+[INFO]20:01:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]20:01:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:0-BusinessRe.py:16 >> request body: {'noteIds': ['1731844867468']}
+[INFO]20:01:0-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:0-BusinessRe.py:23 >> response body: {"responseTime":23,"noteBodies":[{"summary":"test1","noteId":"1731844867468","infoNoteId":"1731844867468","bodyType":0,"body":"test1","contentVersion":2,"contentUpdateTime":1731844871621,"title":"test1","valid":1}]}
+[96m[CASE]20:01:0-logs.py:68 >> Case run time: 0.54s
+[96m[CASE]20:01:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:1-logs.py:63 >> Method Name: testCase06_major, Class Name: NoteContentCreateMajor
+[96m[CASE]20:01:1-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：更新分组便签内容
+[INFO]20:01:1-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:01:1-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:1-BusinessRe.py:16 >> request body: {'title': 'test1', 'summary': 'test1', 'body': 'test1', 'localContentVersion': 1, 'noteId': '1731844870662', 'bodyType': 0}
+[INFO]20:01:1-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:1-BusinessRe.py:23 >> response body: {"responseTime":28,"contentVersion":2,"contentUpdateTime":1731844874813}
+[INFO]20:01:1-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]20:01:1-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:01:1-BusinessRe.py:16 >> request body: {'noteIds': ['1731844870662']}
+[INFO]20:01:1-BusinessRe.py:22 >> response code: 200
+[INFO]20:01:1-BusinessRe.py:23 >> response body: {"responseTime":22,"noteBodies":[{"summary":"test1","noteId":"1731844870662","infoNoteId":"1731844870662","bodyType":0,"body":"test1","contentVersion":2,"contentUpdateTime":1731844874813,"title":"test1","valid":1}]}
+[96m[CASE]20:01:1-logs.py:68 >> Case run time: 0.54s
+[96m[CASE]20:01:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:1-logs.py:63 >> Method Name: testCase010_handle_over_permission, Class Name: RequestNotes
+[96m[CASE]20:01:1-logs.py:64 >> Test Description:查询便签接口，handle层越权：用户A新建1条便签A，用户B查询
+[96m[CASE]20:01:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:1-logs.py:63 >> Method Name: testCase01_major, Class Name: RequestNotes
+[96m[CASE]20:01:1-logs.py:64 >> Test Description:查询首页便签接口，主流程：新建一条便签A然后查询
+[96m[CASE]20:01:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:1-logs.py:63 >> Method Name: testCase02_major, Class Name: RequestNotes
+[96m[CASE]20:01:1-logs.py:64 >> Test Description:查询首页便签接口，主流程：无数据时查询，期望返回0条数据
+[96m[CASE]20:01:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:2-logs.py:63 >> Method Name: testCase03_handle_startindex, Class Name: RequestNotes
+[96m[CASE]20:01:2-logs.py:64 >> Test Description:查询首页便签接口，Handle层startindex数值限制：新建两条便签A、B，查询时传入startindex为1,期望返回便签A的数据
+[96m[CASE]20:01:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:2-logs.py:63 >> Method Name: testCase04_handle_startindex, Class Name: RequestNotes
+[96m[CASE]20:01:2-logs.py:64 >> Test Description:查询首页便签接口，Handle层startindex数值限制：新建两条便签A、B，查询时传入startindex为5,期望返回0条便签数据
+[96m[CASE]20:01:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:2-logs.py:63 >> Method Name: testCase05_handle_rows, Class Name: RequestNotes
+[96m[CASE]20:01:2-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为0,期望返回0条便签数据
+[96m[CASE]20:01:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:3-logs.py:63 >> Method Name: testCase06_handle_rows, Class Name: RequestNotes
+[96m[CASE]20:01:3-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为0,期望返回0条便签数据
+[96m[CASE]20:01:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:3-logs.py:63 >> Method Name: testCase07_handle_rows, Class Name: RequestNotes
+[96m[CASE]20:01:3-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为1,期望返回便签B数据
+[96m[CASE]20:01:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:3-logs.py:63 >> Method Name: testCase08_handle_rows, Class Name: RequestNotes
+[96m[CASE]20:01:3-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为2,期望返回便签A、B数据
+[96m[CASE]20:01:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:4-logs.py:63 >> Method Name: testCase09_handle_rows, Class Name: RequestNotes
+[96m[CASE]20:01:4-logs.py:64 >> Test Description:查询首页便签接口，Handle层rows数值限制：新建两条便签A、B，查询时传入rows为1000,期望返回便签A、B数据
+[96m[CASE]20:01:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:4-logs.py:63 >> Method Name: testCase11_handle_status, Class Name: RequestNotes
+[96m[CASE]20:01:4-logs.py:64 >> Test Description:查询便签接口，handle层状态转变：新建一条便签A然后删除，期望：查询时返回0条数据
+[96m[CASE]20:01:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:4-logs.py:63 >> Method Name: testCase12_handle_status, Class Name: RequestNotes
+[96m[CASE]20:01:4-logs.py:64 >> Test Description:查询便签接口，handle层状态转变：新建一条便签A并移动到分组中，期望：查询时返回0条数据
+[96m[CASE]20:01:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:5-logs.py:63 >> Method Name: testCase13_input_must_key, Class Name: RequestNotes
+[96m[CASE]20:01:5-logs.py:64 >> Test Description:查询便签接口，input必填项：userid传入None
+[96m[CASE]20:01:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:5-logs.py:63 >> Method Name: testCase14_input_must_key, Class Name: RequestNotes
+[96m[CASE]20:01:5-logs.py:64 >> Test Description:查询便签接口，input必填项：userid传入空字符串
+[96m[CASE]20:01:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:5-logs.py:63 >> Method Name: testCase15_input_must_key, Class Name: RequestNotes
+[96m[CASE]20:01:5-logs.py:64 >> Test Description:查询便签接口，input必填项：userid缺失
+[96m[CASE]20:01:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:01:5-logs.py:63 >> Method Name: testCase16_input_type, Class Name: RequestNotes
+[96m[CASE]20:01:5-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid长度超出
+[96m[CASE]20:02:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:02:0-logs.py:63 >> Method Name: testCase17_input_type, Class Name: RequestNotes
+[96m[CASE]20:02:0-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid长度不足
+[96m[CASE]20:02:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:02:0-logs.py:63 >> Method Name: testCase18_input_type, Class Name: RequestNotes
+[96m[CASE]20:02:0-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid为0
+[96m[CASE]20:02:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:02:0-logs.py:63 >> Method Name: testCase19_input_type, Class Name: RequestNotes
+[96m[CASE]20:02:0-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid为-1
+[96m[CASE]20:02:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:02:0-logs.py:63 >> Method Name: testCase20_input_type, Class Name: RequestNotes
+[96m[CASE]20:02:0-logs.py:64 >> Test Description:查询便签接口，input类型校验：userid为小数2.5
+[96m[CASE]20:23:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:23:2-logs.py:63 >> Method Name: testCase06_NoteContentCreate_major, Class Name: NoteContentCreateMajor
+[96m[CASE]20:23:2-logs.py:64 >> Test Description:上传/更新便签内容接口， 主流程：更新分组便签内容
+[INFO]20:23:2-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:23:2-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:23:2-BusinessRe.py:16 >> request body: {'title': 'test1', 'summary': 'test1', 'body': 'test1', 'localContentVersion': 1, 'noteId': '1731846203514', 'bodyType': 0}
+[INFO]20:23:2-BusinessRe.py:22 >> response code: 200
+[INFO]20:23:2-BusinessRe.py:23 >> response body: {"responseTime":28,"contentVersion":2,"contentUpdateTime":1731846203929}
+[INFO]20:23:2-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/get/notebody
+[INFO]20:23:2-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:23:2-BusinessRe.py:16 >> request body: {'noteIds': ['1731846203514']}
+[INFO]20:23:2-BusinessRe.py:22 >> response code: 200
+[INFO]20:23:2-BusinessRe.py:23 >> response body: {"responseTime":27,"noteBodies":[{"summary":"test1","noteId":"1731846203514","infoNoteId":"1731846203514","bodyType":0,"body":"test1","contentVersion":2,"contentUpdateTime":1731846203929,"title":"test1","valid":1}]}
+[96m[CASE]20:23:2-logs.py:68 >> Case run time: 0.65s
+[96m[CASE]20:30:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:30:5-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_0_noteId, Class Name: NoteContentCreateInput
+[96m[CASE]20:30:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='noteId']
+[96m[CASE]20:30:5-logs.py:68 >> Case run time: 0.11s
+[96m[CASE]20:30:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:30:5-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_1_title, Class Name: NoteContentCreateInput
+[96m[CASE]20:30:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='title']
+[96m[CASE]20:30:5-logs.py:68 >> Case run time: 0.01s
+[96m[CASE]20:30:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:30:5-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_2_body, Class Name: NoteContentCreateInput
+[96m[CASE]20:30:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='body']
+[96m[CASE]20:30:5-logs.py:68 >> Case run time: 0.01s
+[96m[CASE]20:31:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:0-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_3_summary, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:0-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='summary']
+[96m[CASE]20:31:0-logs.py:68 >> Case run time: 0.01s
+[96m[CASE]20:31:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:0-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_4_localContentVersion, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:0-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='localContentVersion']
+[96m[CASE]20:31:0-logs.py:68 >> Case run time: 0.01s
+[96m[CASE]20:31:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:0-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_5_BodyType, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:0-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='BodyType']
+[96m[CASE]20:31:0-logs.py:68 >> Case run time: 0.02s
+[96m[CASE]20:31:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:3-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_0_noteId, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:3-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='noteId']
+[INFO]20:31:3-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]20:31:3-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:31:3-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:31:3-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]20:31:3-BusinessRe.py:22 >> response code: 500
+[INFO]20:31:3-BusinessRe.py:23 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[91m[ERROR]20:31:3-general_assert.py:50 >> An error occurred: 0 != 2 : 返回体字段长度不一致，实际返回的字段有:['errorCode', 'errorMsg']
+[91m[ERROR]20:31:3-general_assert.py:52 >> None
+[96m[CASE]20:31:3-logs.py:68 >> Case run time: 0.36s
+[96m[CASE]20:31:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:4-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_1_title, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='title']
+[INFO]20:31:4-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]20:31:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:31:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:31:4-BusinessRe.py:16 >> request body: {'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731846701070', 'bodyType': 0}
+[INFO]20:31:4-BusinessRe.py:22 >> response code: 200
+[INFO]20:31:4-BusinessRe.py:23 >> response body: {"responseTime":31,"contentVersion":1,"contentUpdateTime":1731846701433}
+[91m[ERROR]20:31:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:31:4-general_assert.py:52 >> None
+[96m[CASE]20:31:4-logs.py:68 >> Case run time: 0.30s
+[96m[CASE]20:31:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:4-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_2_body, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='body']
+[INFO]20:31:4-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]20:31:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:31:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:31:4-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'localContentVersion': 0, 'noteId': '1731846704157', 'bodyType': 0}
+[INFO]20:31:4-BusinessRe.py:22 >> response code: 412
+[INFO]20:31:4-BusinessRe.py:23 >> response body: {"errorCode":-1012,"errorMsg":"Note body Requested!"}
+[91m[ERROR]20:31:4-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]20:31:4-general_assert.py:52 >> None
+[96m[CASE]20:31:4-logs.py:68 >> Case run time: 0.36s
+[96m[CASE]20:31:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:4-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_3_summary, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='summary']
+[INFO]20:31:4-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]20:31:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:31:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:31:4-BusinessRe.py:16 >> request body: {'title': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731846707211', 'bodyType': 0}
+[INFO]20:31:4-BusinessRe.py:22 >> response code: 200
+[INFO]20:31:4-BusinessRe.py:23 >> response body: {"responseTime":43,"contentVersion":1,"contentUpdateTime":1731846707612}
+[91m[ERROR]20:31:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:31:4-general_assert.py:52 >> None
+[96m[CASE]20:31:4-logs.py:68 >> Case run time: 0.41s
+[96m[CASE]20:31:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:5-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_4_localContentVersion, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='localContentVersion']
+[INFO]20:31:5-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]20:31:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]20:31:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]20:31:5-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'noteId': '1731846710949', 'bodyType': 0}
+[INFO]20:31:5-BusinessRe.py:22 >> response code: 200
+[INFO]20:31:5-BusinessRe.py:23 >> response body: {"responseTime":30,"contentVersion":1,"contentUpdateTime":1731846711274}
+[91m[ERROR]20:31:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:31:5-general_assert.py:52 >> None
+[96m[CASE]20:31:5-logs.py:68 >> Case run time: 0.34s
+[96m[CASE]20:31:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]20:31:5-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_5_BodyType, Class Name: NoteContentCreateInput
+[96m[CASE]20:31:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='BodyType']
+[INFO]20:31:5-test_input.py:39 >> 用户A请求上传便签主体接口
+[96m[CASE]22:01:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:01:3-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_0_noteId, Class Name: NoteContentCreateInput
+[96m[CASE]22:01:3-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='noteId']
+[INFO]22:01:3-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]22:01:3-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:01:3-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:01:3-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:01:3-BusinessRe.py:22 >> response code: 500
+[INFO]22:01:3-BusinessRe.py:23 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[96m[CASE]22:01:3-logs.py:68 >> Case run time: 0.33s
+[96m[CASE]22:01:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:01:4-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_1_title, Class Name: NoteContentCreateInput
+[96m[CASE]22:01:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='title']
+[INFO]22:01:4-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]22:01:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:01:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:01:4-BusinessRe.py:16 >> request body: {'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731852101705', 'bodyType': 0}
+[INFO]22:01:4-BusinessRe.py:22 >> response code: 200
+[INFO]22:01:4-BusinessRe.py:23 >> response body: {"responseTime":29,"contentVersion":1,"contentUpdateTime":1731852102103}
+[91m[ERROR]22:01:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:01:4-general_assert.py:52 >> None
+[96m[CASE]22:01:4-logs.py:68 >> Case run time: 0.31s
+[96m[CASE]22:01:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:01:4-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_2_body, Class Name: NoteContentCreateInput
+[96m[CASE]22:01:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='body']
+[INFO]22:01:4-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]22:01:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:01:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:01:4-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'localContentVersion': 0, 'noteId': '1731852105324', 'bodyType': 0}
+[INFO]22:01:4-BusinessRe.py:22 >> response code: 412
+[INFO]22:01:4-BusinessRe.py:23 >> response body: {"errorCode":-1012,"errorMsg":"Note body Requested!"}
+[91m[ERROR]22:01:4-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]22:01:4-general_assert.py:52 >> None
+[96m[CASE]22:01:4-logs.py:68 >> Case run time: 0.28s
+[96m[CASE]22:01:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:01:4-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_3_summary, Class Name: NoteContentCreateInput
+[96m[CASE]22:01:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='summary']
+[INFO]22:01:4-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]22:01:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:01:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:01:4-BusinessRe.py:16 >> request body: {'title': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731852108255', 'bodyType': 0}
+[INFO]22:01:4-BusinessRe.py:22 >> response code: 200
+[INFO]22:01:4-BusinessRe.py:23 >> response body: {"responseTime":31,"contentVersion":1,"contentUpdateTime":1731852108684}
+[91m[ERROR]22:01:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:01:4-general_assert.py:52 >> None
+[96m[CASE]22:01:4-logs.py:68 >> Case run time: 0.37s
+[96m[CASE]22:01:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:01:5-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_4_localContentVersion, Class Name: NoteContentCreateInput
+[96m[CASE]22:01:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='localContentVersion']
+[INFO]22:01:5-test_input.py:39 >> 用户A请求上传便签主体接口
+[INFO]22:01:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:01:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:01:5-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'noteId': '1731852111382', 'bodyType': 0}
+[INFO]22:01:5-BusinessRe.py:22 >> response code: 200
+[INFO]22:01:5-BusinessRe.py:23 >> response body: {"responseTime":28,"contentVersion":1,"contentUpdateTime":1731852111757}
+[91m[ERROR]22:01:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:01:5-general_assert.py:52 >> None
+[96m[CASE]22:01:5-logs.py:68 >> Case run time: 0.30s
+[96m[CASE]22:01:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:01:5-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input_5_BodyType, Class Name: NoteContentCreateInput
+[96m[CASE]22:01:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失 [with key='BodyType']
+[INFO]22:01:5-test_input.py:39 >> 用户A请求上传便签主体接口
+[96m[CASE]22:04:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:04:4-logs.py:63 >> Method Name: testCase01_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:04:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失: noteId
+[INFO]22:04:4-test_input.py:38 >> 用户A请求上传便签主体接口
+[INFO]22:04:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:04:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:04:4-BusinessRe.py:16 >> request body: {'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:04:4-BusinessRe.py:22 >> response code: 500
+[INFO]22:04:4-BusinessRe.py:23 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[96m[CASE]22:04:4-logs.py:68 >> Case run time: 0.43s
+[96m[CASE]22:05:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:05:5-logs.py:63 >> Method Name: testCase02_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:05:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失: title
+[INFO]22:05:5-test_input.py:61 >> 用户A请求上传便签主体接口
+[INFO]22:05:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:05:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:05:5-BusinessRe.py:16 >> request body: {'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731852355392', 'bodyType': 0}
+[INFO]22:05:5-BusinessRe.py:22 >> response code: 200
+[INFO]22:05:5-BusinessRe.py:23 >> response body: {"responseTime":129,"contentVersion":1,"contentUpdateTime":1731852356007}
+[91m[ERROR]22:05:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:05:5-general_assert.py:52 >> None
+[96m[CASE]22:05:5-logs.py:68 >> Case run time: 0.61s
+[96m[CASE]22:07:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:07:1-logs.py:63 >> Method Name: testCase03_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:07:1-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失: summary
+[INFO]22:07:1-test_input.py:85 >> 用户A请求上传便签主体接口
+[INFO]22:07:1-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:07:1-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:07:1-BusinessRe.py:16 >> request body: {'title': 'test', 'body': 'test', 'localContentVersion': 0, 'noteId': '1731852434048', 'bodyType': 0}
+[INFO]22:07:1-BusinessRe.py:22 >> response code: 200
+[INFO]22:07:1-BusinessRe.py:23 >> response body: {"responseTime":28,"contentVersion":1,"contentUpdateTime":1731852434424}
+[91m[ERROR]22:07:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:07:1-general_assert.py:52 >> None
+[96m[CASE]22:07:1-logs.py:68 >> Case run time: 0.43s
+[96m[CASE]22:08:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:08:1-logs.py:63 >> Method Name: testCase04_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:08:1-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失: body
+[INFO]22:08:1-test_input.py:109 >> 用户A请求上传便签主体接口
+[INFO]22:08:1-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:08:1-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:08:1-BusinessRe.py:16 >> request body: {'summary': 'test', 'title': 'test', 'localContentVersion': 0, 'noteId': '1731852495473', 'bodyType': 0}
+[INFO]22:08:1-BusinessRe.py:22 >> response code: 412
+[INFO]22:08:1-BusinessRe.py:23 >> response body: {"errorCode":-1012,"errorMsg":"Note body Requested!"}
+[91m[ERROR]22:08:1-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]22:08:1-general_assert.py:52 >> None
+[96m[CASE]22:08:1-logs.py:68 >> Case run time: 0.35s
+[96m[CASE]22:08:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:08:3-logs.py:63 >> Method Name: testCase04_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:08:3-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失: body
+[INFO]22:08:3-test_input.py:109 >> 用户A请求上传便签主体接口
+[INFO]22:08:3-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:08:3-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:08:3-BusinessRe.py:16 >> request body: {'summary': 'test', 'title': 'test', 'localContentVersion': 0, 'noteId': '1731852518377', 'bodyType': 0}
+[INFO]22:08:3-BusinessRe.py:22 >> response code: 412
+[INFO]22:08:3-BusinessRe.py:23 >> response body: {"errorCode":-1012,"errorMsg":"Note body Requested!"}
+[96m[CASE]22:08:3-logs.py:68 >> Case run time: 0.35s
+[96m[CASE]22:10:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:10:1-logs.py:63 >> Method Name: testCase05_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:10:1-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失: localContentVersion
+[INFO]22:10:1-test_input.py:132 >> 用户A请求上传便签主体接口
+[INFO]22:10:1-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:10:1-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:10:1-BusinessRe.py:16 >> request body: {'summary': 'test', 'title': 'test', 'body': 'test', 'noteId': '1731852614052', 'bodyType': 0}
+[INFO]22:10:1-BusinessRe.py:22 >> response code: 200
+[INFO]22:10:1-BusinessRe.py:23 >> response body: {"responseTime":33,"contentVersion":1,"contentUpdateTime":1731852614443}
+[91m[ERROR]22:10:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:10:1-general_assert.py:52 >> None
+[96m[CASE]22:10:1-logs.py:68 >> Case run time: 0.38s
+[96m[CASE]22:11:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:11:2-logs.py:63 >> Method Name: testCase06_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:11:2-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项缺失: bodyType
+[INFO]22:11:2-test_input.py:155 >> 用户A请求上传便签主体接口
+[INFO]22:11:2-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:11:2-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:11:2-BusinessRe.py:16 >> request body: {'summary': 'test', 'title': 'test', 'body': 'test', 'noteId': '1731852683487', 'localContentVersion': 0}
+[INFO]22:11:2-BusinessRe.py:22 >> response code: 200
+[INFO]22:11:2-BusinessRe.py:23 >> response body: {"responseTime":29,"contentVersion":1,"contentUpdateTime":1731852683936}
+[91m[ERROR]22:11:2-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:11:2-general_assert.py:52 >> None
+[96m[CASE]22:11:2-logs.py:68 >> Case run time: 0.42s
+[96m[CASE]22:13:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:13:0-logs.py:63 >> Method Name: testCase07_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:13:0-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为None: noteId
+[INFO]22:13:0-test_input.py:178 >> 用户A请求上传便签主体接口
+[INFO]22:13:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:13:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:13:0-BusinessRe.py:16 >> request body: {'noteId': None, 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:13:0-BusinessRe.py:22 >> response code: 500
+[INFO]22:13:0-BusinessRe.py:23 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[96m[CASE]22:13:0-logs.py:68 >> Case run time: 0.41s
+[96m[CASE]22:13:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:13:5-logs.py:63 >> Method Name: testCase08_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:13:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为None: title
+[INFO]22:13:5-test_input.py:202 >> 用户A请求上传便签主体接口
+[INFO]22:13:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:13:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:13:5-BusinessRe.py:16 >> request body: {'noteId': '1731852830672', 'title': None, 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:13:5-BusinessRe.py:22 >> response code: 200
+[INFO]22:13:5-BusinessRe.py:23 >> response body: {"responseTime":30,"contentVersion":1,"contentUpdateTime":1731852831035}
+[91m[ERROR]22:13:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:13:5-general_assert.py:52 >> None
+[96m[CASE]22:13:5-logs.py:68 >> Case run time: 0.40s
+[96m[CASE]22:14:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:14:3-logs.py:63 >> Method Name: testCase09_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:14:3-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为None: summary
+[INFO]22:14:3-test_input.py:226 >> 用户A请求上传便签主体接口
+[INFO]22:14:3-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:14:3-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:14:3-BusinessRe.py:16 >> request body: {'noteId': '1731852875688', 'title': 'test', 'summary': None, 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:14:3-BusinessRe.py:22 >> response code: 200
+[INFO]22:14:3-BusinessRe.py:23 >> response body: {"responseTime":31,"contentVersion":1,"contentUpdateTime":1731852876076}
+[91m[ERROR]22:14:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:14:3-general_assert.py:52 >> None
+[96m[CASE]22:14:3-logs.py:68 >> Case run time: 0.41s
+[96m[CASE]22:15:1-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:15:1-logs.py:63 >> Method Name: testCase10_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:15:1-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为None: body
+[INFO]22:15:1-test_input.py:250 >> 用户A请求上传便签主体接口
+[INFO]22:15:1-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:15:1-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:15:1-BusinessRe.py:16 >> request body: {'noteId': '1731852916663', 'title': 'test', 'summary': 'test', 'body': None, 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:15:1-BusinessRe.py:22 >> response code: 412
+[INFO]22:15:1-BusinessRe.py:23 >> response body: {"errorCode":-1012,"errorMsg":"Note body Requested!"}
+[91m[ERROR]22:15:1-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]22:15:1-general_assert.py:52 >> None
+[96m[CASE]22:15:1-logs.py:68 >> Case run time: 0.39s
+[96m[CASE]22:16:2-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:16:2-logs.py:63 >> Method Name: testCase11_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:16:2-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为None: localContentVersion
+[INFO]22:16:2-test_input.py:274 >> 用户A请求上传便签主体接口
+[INFO]22:16:2-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:16:2-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:16:2-BusinessRe.py:16 >> request body: {'noteId': '1731852980348', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': None, 'bodyType': 0}
+[INFO]22:16:2-BusinessRe.py:22 >> response code: 200
+[INFO]22:16:2-BusinessRe.py:23 >> response body: {"responseTime":31,"contentVersion":1,"contentUpdateTime":1731852980744}
+[91m[ERROR]22:16:2-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:16:2-general_assert.py:52 >> None
+[96m[CASE]22:16:2-logs.py:68 >> Case run time: 0.42s
+[96m[CASE]22:17:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:17:3-logs.py:63 >> Method Name: testCase12_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:17:3-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为None: bodyType
+[INFO]22:17:3-test_input.py:298 >> 用户A请求上传便签主体接口
+[INFO]22:17:3-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:17:3-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:17:3-BusinessRe.py:16 >> request body: {'noteId': '1731853056816', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': None}
+[INFO]22:17:3-BusinessRe.py:22 >> response code: 200
+[INFO]22:17:3-BusinessRe.py:23 >> response body: {"responseTime":30,"contentVersion":1,"contentUpdateTime":1731853057241}
+[91m[ERROR]22:17:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:17:3-general_assert.py:52 >> None
+[96m[CASE]22:17:3-logs.py:68 >> Case run time: 0.43s
+[96m[CASE]22:18:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:18:4-logs.py:63 >> Method Name: testCase13_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:18:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为"": noteId
+[INFO]22:18:4-test_input.py:322 >> 用户A请求上传便签主体接口
+[INFO]22:18:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:18:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:18:4-BusinessRe.py:16 >> request body: {'noteId': '', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:18:4-BusinessRe.py:22 >> response code: 500
+[INFO]22:18:4-BusinessRe.py:23 >> response body: {"errorCode":-7,"errorMsg":"参数不合法！"}
+[96m[CASE]22:18:4-logs.py:68 >> Case run time: 0.34s
+[96m[CASE]22:19:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:19:3-logs.py:63 >> Method Name: testCase14_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:19:3-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为"": title
+[INFO]22:19:3-test_input.py:346 >> 用户A请求上传便签主体接口
+[INFO]22:19:3-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:19:3-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:19:3-BusinessRe.py:16 >> request body: {'noteId': '1731853173308', 'title': '', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:19:3-BusinessRe.py:22 >> response code: 200
+[INFO]22:19:3-BusinessRe.py:23 >> response body: {"responseTime":29,"contentVersion":1,"contentUpdateTime":1731853173730}
+[91m[ERROR]22:19:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:19:3-general_assert.py:52 >> None
+[96m[CASE]22:19:3-logs.py:68 >> Case run time: 0.40s
+[96m[CASE]22:20:4-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:20:4-logs.py:63 >> Method Name: testCase15_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:20:4-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为"": summary
+[INFO]22:20:4-test_input.py:370 >> 用户A请求上传便签主体接口
+[INFO]22:20:4-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:20:4-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:20:4-BusinessRe.py:16 >> request body: {'noteId': '1731853241995', 'title': 'test', 'summary': '', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:20:4-BusinessRe.py:22 >> response code: 200
+[INFO]22:20:4-BusinessRe.py:23 >> response body: {"responseTime":30,"contentVersion":1,"contentUpdateTime":1731853242417}
+[91m[ERROR]22:20:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:20:4-general_assert.py:52 >> None
+[96m[CASE]22:20:4-logs.py:68 >> Case run time: 0.39s
+[96m[CASE]22:21:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:21:0-logs.py:63 >> Method Name: testCase16_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:21:0-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为"": body
+[INFO]22:21:0-test_input.py:394 >> 用户A请求上传便签主体接口
+[INFO]22:21:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:21:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:21:0-BusinessRe.py:16 >> request body: {'noteId': '1731853266111', 'title': 'test', 'summary': 'test', 'body': '', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:21:0-BusinessRe.py:22 >> response code: 412
+[INFO]22:21:0-BusinessRe.py:23 >> response body: {"errorCode":-1012,"errorMsg":"Note body Requested!"}
+[96m[CASE]22:21:0-logs.py:68 >> Case run time: 0.37s
+[96m[CASE]22:21:3-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:21:3-logs.py:63 >> Method Name: testCase17_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:21:3-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为"": localContentVersion
+[INFO]22:21:3-test_input.py:418 >> 用户A请求上传便签主体接口
+[INFO]22:21:3-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:21:3-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:21:3-BusinessRe.py:16 >> request body: {'noteId': '1731853291065', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': '', 'bodyType': 0}
+[INFO]22:21:3-BusinessRe.py:22 >> response code: 200
+[INFO]22:21:3-BusinessRe.py:23 >> response body: {"responseTime":27,"contentVersion":1,"contentUpdateTime":1731853291476}
+[91m[ERROR]22:21:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:21:3-general_assert.py:52 >> None
+[96m[CASE]22:21:3-logs.py:68 >> Case run time: 0.39s
+[96m[CASE]22:21:5-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:21:5-logs.py:63 >> Method Name: testCase18_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:21:5-logs.py:64 >> Test Description:上传/更新便签内容接口，必填项值为"": bodyType
+[INFO]22:21:5-test_input.py:442 >> 用户A请求上传便签主体接口
+[INFO]22:21:5-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:21:5-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:21:5-BusinessRe.py:16 >> request body: {'noteId': '1731853313529', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': ''}
+[INFO]22:21:5-BusinessRe.py:22 >> response code: 200
+[INFO]22:21:5-BusinessRe.py:23 >> response body: {"responseTime":29,"contentVersion":1,"contentUpdateTime":1731853313986}
+[91m[ERROR]22:21:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:21:5-general_assert.py:52 >> None
+[96m[CASE]22:21:5-logs.py:68 >> Case run time: 0.39s
+[96m[CASE]22:32:0-logs.py:62 >> -------------------------------------------------------------
+[96m[CASE]22:32:0-logs.py:63 >> Method Name: testCase19_NoteContentCreate_input, Class Name: NoteContentCreateInput
+[96m[CASE]22:32:0-logs.py:64 >> Test Description:上传/更新便签内容接口，类型校验: noteId长度超出
+[INFO]22:32:0-test_input.py:466 >> 用户A请求上传便签主体接口
+[INFO]22:32:0-BusinessRe.py:14 >> request url: http://note-api.wps.cn/v3/notesvr/set/notecontent
+[INFO]22:32:0-BusinessRe.py:15 >> request headers: {'Cookie': 'wps_sid=V02SLhq3OBmoksCi_G89b13NGYSK8bo00a6f3d6f0016adde65', 'X-user-key': '380493413', 'Content-Type': 'application/json'}
+[INFO]22:32:0-BusinessRe.py:16 >> request body: {'noteId': '1731853926206123456', 'title': 'test', 'summary': 'test', 'body': 'test', 'localContentVersion': 0, 'bodyType': 0}
+[INFO]22:32:0-BusinessRe.py:22 >> response code: 200
+[INFO]22:32:0-BusinessRe.py:23 >> response body: {"responseTime":26,"contentVersion":1,"contentUpdateTime":1731853926627}
+[91m[ERROR]22:32:0-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:32:0-general_assert.py:52 >> None
+[96m[CASE]22:32:0-logs.py:68 >> Case run time: 0.35s
