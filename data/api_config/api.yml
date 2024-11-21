@@ -1,0 +1,20 @@
+note_create_content:
+  path: /v3/notesvr/set/notecontent
+  method: post
+  mustKeys:
+    - noteId
+    - title
+    - body
+    - summary
+    - localContentVersion
+    - BodyType
+
+remind:
+  path: /v3/notesvr/web/getnotes/remind
+  method: post
+  mustKeys:
+    - remindStartTime
+    - remindEndTime
+    - startIndex
+    - rows
+

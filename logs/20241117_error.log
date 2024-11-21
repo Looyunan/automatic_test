@@ -1,0 +1,48 @@
+[91m[ERROR]20:31:3-general_assert.py:50 >> An error occurred: 0 != 2 : 返回体字段长度不一致，实际返回的字段有:['errorCode', 'errorMsg']
+[91m[ERROR]20:31:3-general_assert.py:52 >> None
+[91m[ERROR]20:31:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:31:4-general_assert.py:52 >> None
+[91m[ERROR]20:31:4-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]20:31:4-general_assert.py:52 >> None
+[91m[ERROR]20:31:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:31:4-general_assert.py:52 >> None
+[91m[ERROR]20:31:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:31:5-general_assert.py:52 >> None
+[91m[ERROR]22:01:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:01:4-general_assert.py:52 >> None
+[91m[ERROR]22:01:4-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]22:01:4-general_assert.py:52 >> None
+[91m[ERROR]22:01:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:01:4-general_assert.py:52 >> None
+[91m[ERROR]22:01:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:01:5-general_assert.py:52 >> None
+[91m[ERROR]22:05:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:05:5-general_assert.py:52 >> None
+[91m[ERROR]22:07:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:07:1-general_assert.py:52 >> None
+[91m[ERROR]22:08:1-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]22:08:1-general_assert.py:52 >> None
+[91m[ERROR]22:10:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:10:1-general_assert.py:52 >> None
+[91m[ERROR]22:11:2-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:11:2-general_assert.py:52 >> None
+[91m[ERROR]22:13:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:13:5-general_assert.py:52 >> None
+[91m[ERROR]22:14:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:14:3-general_assert.py:52 >> None
+[91m[ERROR]22:15:1-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]22:15:1-general_assert.py:52 >> None
+[91m[ERROR]22:16:2-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:16:2-general_assert.py:52 >> None
+[91m[ERROR]22:17:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:17:3-general_assert.py:52 >> None
+[91m[ERROR]22:19:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:19:3-general_assert.py:52 >> None
+[91m[ERROR]22:20:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:20:4-general_assert.py:52 >> None
+[91m[ERROR]22:21:3-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:21:3-general_assert.py:52 >> None
+[91m[ERROR]22:21:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:21:5-general_assert.py:52 >> None
+[91m[ERROR]22:32:0-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]22:32:0-general_assert.py:52 >> None

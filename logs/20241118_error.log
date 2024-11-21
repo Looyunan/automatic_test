@@ -1,0 +1,129 @@
+[91m[ERROR]17:05:5-general_assert.py:50 >> An error occurred: '参数不合法！' != "org.springframework.jdbc.UncategorizedSQ[11645 chars]re\n"
+Diff is 11463 characters long. Set self.maxDiff to None to see it. : errorMsg字段值不一致
+[91m[ERROR]17:05:5-general_assert.py:52 >> None
+[91m[ERROR]17:06:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:06:5-general_assert.py:52 >> None
+[91m[ERROR]17:08:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:08:1-general_assert.py:52 >> None
+[91m[ERROR]17:09:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:09:1-general_assert.py:52 >> None
+[91m[ERROR]17:12:2-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:12:2-general_assert.py:52 >> None
+[91m[ERROR]17:12:4-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:12:4-general_assert.py:52 >> None
+[91m[ERROR]17:13:4-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:13:4-general_assert.py:52 >> None
+[91m[ERROR]17:14:4-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:14:4-general_assert.py:52 >> None
+[91m[ERROR]17:16:2-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:16:2-general_assert.py:52 >> None
+[91m[ERROR]17:19:2-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:19:2-general_assert.py:52 >> None
+[91m[ERROR]17:20:2-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:20:2-general_assert.py:52 >> None
+[91m[ERROR]17:21:2-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:21:2-general_assert.py:52 >> None
+[91m[ERROR]17:21:4-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]17:21:4-general_assert.py:52 >> None
+[91m[ERROR]17:24:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:24:1-general_assert.py:52 >> None
+[91m[ERROR]17:25:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:25:4-general_assert.py:52 >> None
+[91m[ERROR]17:26:0-general_assert.py:50 >> An error occurred: 0 != 2 : 返回体字段长度不一致，实际返回的字段有:['errorCode', 'errorMsg']
+[91m[ERROR]17:26:0-general_assert.py:52 >> None
+[91m[ERROR]17:31:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:31:4-general_assert.py:52 >> None
+[91m[ERROR]17:35:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:35:5-general_assert.py:52 >> None
+[91m[ERROR]17:36:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:36:1-general_assert.py:52 >> None
+[91m[ERROR]17:36:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]17:36:5-general_assert.py:52 >> None
+[91m[ERROR]17:39:2-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]17:39:2-general_assert.py:52 >> None
+[91m[ERROR]17:44:5-general_assert.py:50 >> An error occurred: 500 != 401
+[91m[ERROR]17:44:5-general_assert.py:52 >> None
+[91m[ERROR]17:50:0-general_assert.py:50 >> An error occurred: 401 != 412
+[91m[ERROR]17:50:0-general_assert.py:52 >> None
+[91m[ERROR]18:50:5-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]18:50:5-general_assert.py:52 >> None
+[91m[ERROR]18:51:4-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]18:51:4-general_assert.py:52 >> None
+[91m[ERROR]18:52:5-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]18:52:5-general_assert.py:52 >> None
+[91m[ERROR]18:55:1-general_assert.py:50 >> An error occurred: 200 != 500
+[91m[ERROR]18:55:1-general_assert.py:52 >> None
+[91m[ERROR]18:56:0-general_assert.py:50 >> An error occurred: 1 != 0 : webNotes列表元素长度不一致
+[91m[ERROR]18:56:0-general_assert.py:52 >> None
+[91m[ERROR]18:57:5-general_assert.py:50 >> An error occurred: 1 != 0 : webNotes列表元素长度不一致
+[91m[ERROR]18:57:5-general_assert.py:52 >> None
+[91m[ERROR]18:59:2-general_assert.py:50 >> An error occurred: 1 != 0 : remindType字段值不一致
+[91m[ERROR]18:59:2-general_assert.py:52 >> None
+[91m[ERROR]19:04:0-general_assert.py:50 >> An error occurred: 200 != 412
+[91m[ERROR]19:04:0-general_assert.py:52 >> None
+[91m[ERROR]19:14:0-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:14:0-general_assert.py:52 >> None
+[91m[ERROR]19:14:4-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:14:4-general_assert.py:52 >> None
+[91m[ERROR]19:17:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]19:17:5-general_assert.py:52 >> None
+[91m[ERROR]19:18:4-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]19:18:4-general_assert.py:52 >> None
+[91m[ERROR]19:19:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]19:19:5-general_assert.py:52 >> None
+[91m[ERROR]19:21:4-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:21:4-general_assert.py:52 >> None
+[91m[ERROR]19:23:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]19:23:1-general_assert.py:52 >> None
+[91m[ERROR]19:24:1-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]19:24:1-general_assert.py:52 >> None
+[91m[ERROR]19:25:0-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:25:0-general_assert.py:52 >> None
+[91m[ERROR]19:26:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]19:26:1-general_assert.py:52 >> None
+[91m[ERROR]19:26:5-general_assert.py:50 >> An error occurred: 500 != 412
+[91m[ERROR]19:26:5-general_assert.py:52 >> None
+[91m[ERROR]19:27:1-general_assert.py:50 >> An error occurred: '参数不合法！' != 'remindTime Requested!'
+- 参数不合法！
++ remindTime Requested!
+ : errorMsg字段值不一致
+[91m[ERROR]19:27:1-general_assert.py:52 >> None
+[91m[ERROR]19:29:5-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]19:29:5-general_assert.py:52 >> None
+[91m[ERROR]19:30:2-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:30:2-general_assert.py:52 >> None
+[91m[ERROR]19:31:1-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:31:1-general_assert.py:52 >> None
+[91m[ERROR]19:32:2-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]19:32:2-general_assert.py:52 >> None
+[91m[ERROR]19:32:5-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:32:5-general_assert.py:52 >> None
+[91m[ERROR]19:33:0-general_assert.py:50 >> An error occurred: 412 != 200
+[91m[ERROR]19:33:0-general_assert.py:52 >> None
+[91m[ERROR]20:10:2-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:10:2-general_assert.py:52 >> None
+[91m[ERROR]20:13:2-general_assert.py:50 >> An error occurred: '1731932002177' != '1731932002584'
+- 1731932002177
+?           ^^^
++ 1731932002584
+?           ^^^
+ : noteId字段值不一致
+[91m[ERROR]20:13:2-general_assert.py:52 >> None
+[91m[ERROR]20:22:1-general_assert.py:50 >> An error occurred: 500 != 200
+[91m[ERROR]20:22:1-general_assert.py:52 >> None
+[91m[ERROR]20:24:4-general_assert.py:50 >> An error occurred: 1 != 0 : webNotes列表元素长度不一致
+[91m[ERROR]20:24:4-general_assert.py:52 >> None
+[91m[ERROR]20:40:3-general_assert.py:50 >> An error occurred: 1 != 0 : webNotes列表元素长度不一致
+[91m[ERROR]20:40:3-general_assert.py:52 >> None
+[91m[ERROR]20:41:3-general_assert.py:50 >> An error occurred: 1 != 0 : webNotes列表元素长度不一致
+[91m[ERROR]20:41:3-general_assert.py:52 >> None
+[91m[ERROR]20:42:2-general_assert.py:50 >> An error occurred: 1 != 3 : infoVersion字段值不一致
+[91m[ERROR]20:42:2-general_assert.py:52 >> None
+[91m[ERROR]20:48:3-general_assert.py:50 >> An error occurred: 1 != 2 : infoVersion字段值不一致
+[91m[ERROR]20:48:3-general_assert.py:52 >> None
+[91m[ERROR]20:56:0-general_assert.py:50 >> An error occurred: 401 != 412
+[91m[ERROR]20:56:0-general_assert.py:52 >> None
+[91m[ERROR]20:56:2-general_assert.py:50 >> An error occurred: 401 != 200
+[91m[ERROR]20:56:2-general_assert.py:52 >> None
+[91m[ERROR]21:00:0-general_assert.py:50 >> An error occurred: 401 != 200
+[91m[ERROR]21:00:0-general_assert.py:52 >> None
